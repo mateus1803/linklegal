@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffe4e1; /* Rosa suave para o fundo */
+    font-family: 'Georgia', serif; /* Fonte elegante e romântica */
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    max-width: 450px;
+    border: 2px solid #ff69b4; /* Borda rosa para dar destaque */
+}
+
+.motivo {
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 22px; /* Tamanho aumentado para mais destaque */
+    color: #b22222; /* Cor vermelho suave para um toque romântico */
+    margin: 20px 0;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombras para dar profundidade */
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #ff69b4; /* Rosa vibrante para os botões */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 20px; /* Bordas arredondadas para um toque suave */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #c71585; /* Rosa mais escuro no hover */
+}
+
+
+#link-btn button {
+    background-color: #ff69b4; /* Mesma cor dos outros botões */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+#link-btn button:hover {
+    background-color: #c71585; /* Cor ao passar o mouse */
+}
